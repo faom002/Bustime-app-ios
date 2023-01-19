@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "Holmlia Bus",
+    "slug": "Holmlia-Bus",
+    "description": "This shows only buss time for Holmlia.",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/bus-icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/bus-splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.faisal002.HolmliaBus"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "c0c6e019-9407-4205-a08c-7fd2a4168969"
+      }
+    }
+  }
+}
